@@ -1,6 +1,6 @@
 image: go1.2
 env:
-  - GOROOT=/usr/local/go
+  - GOROOT=/usr/lib/go
   - GOPATH=$PWD/Godeps/_workspace:/var/cache/drone
   - PATH=$PWD/Godeps/_workspace/bin:/var/cache/drone/bin:$PATH
 script:
